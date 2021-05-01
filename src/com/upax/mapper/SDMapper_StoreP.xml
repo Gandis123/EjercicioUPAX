@@ -71,7 +71,7 @@
 	  <resultMap id="resultDescSalario" type="java.lang.String">
 	  </resultMap>	
 	  
-	  <select id="select_salario" statementType ="CALLABLE" parameterType="com.upax.vo.ConsultaSalarioVO">
+	  <select  id="select_salario" statementType ="CALLABLE" parameterType="com.upax.vo.ConsultaSalarioVO">
 	  			
 	  			{ CALL UPX_PKG_EXAMPLE.select_salario (
 	  			
